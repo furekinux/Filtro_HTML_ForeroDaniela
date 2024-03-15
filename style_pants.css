@@ -13,7 +13,7 @@ html{
     width: 70vi;
     height: 51.099vi;
     background-color: #ffffff;
-    border: 0.1vi solid #000000;
+    border: 0.1vi solid #326cd8;
     overflow:scroll;
     right: 2.5vi;
     top: 2.5vi;
@@ -101,9 +101,9 @@ nav svg{
     gap: 1vi;
     column-gap: 1vi;
     align-content: center;
-    border: 0.1vi solid #0c0fc5;
-    margin-top: 24vi;
+    margin-top: 0vi;
     padding: 2vi;
+    margin-bottom: 4vi;
 }
 
 .everysque{
@@ -211,4 +211,10 @@ img{
         left: 8vi;
     }
     
+}
+
+.identify{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    grid-column: 1/5;
+    color: #0033a0;
 }
