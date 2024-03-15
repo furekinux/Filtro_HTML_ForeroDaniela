@@ -1,11 +1,7 @@
-html,body{
+html{
     color: #ffffff;
     background: #0033a0;
-    background-size: cover;
     width: 100%;
-    display: flex;
-    padding: 0;
-    margin: 0;
 }
 
 
@@ -16,7 +12,7 @@ html,body{
     background-color: #ffffff;
     border: 0.1vi solid #000000;
     overflow:scroll;
-    right: 3vi;
+    right: 2.5vi;
     top: 2.5vi;
     border-radius: 2.5vi;
 }
@@ -96,16 +92,24 @@ nav svg{
     left: 8vi;
 }
 
+.grid-cont{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+img{
+    width: 10vi;
+}
+
 @media (max-width:430px) {
     html,body{
         color: #ffffff;
         background: #0033a0;
+        background-size: cover;
         width: 100%;
-        margin: 0;
-        padding: 0;
         display: flex;
+        padding: 0;
+        margin: 0;
         justify-content: center;
-        text-align: center;
     }
     
     
@@ -113,68 +117,59 @@ nav svg{
         position: absolute;
         z-index: 1000;
         width: 90vi;
-        height: 50vi;
+        height:100vi;
         background-color: #ffffff;
         border: 0.1vi solid #000000;
         overflow:scroll;
-        margin-top: 10vi;
+        margin-top: 23vi;
         border-radius: 2.5vi;
     }
     
     .title1{
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         position: absolute;
-        top: 2.5vi;
-        left: 4vi;
-        font-size: 3vi;
+        z-index: 1000;
+        top: 10vi;
+        left: 8vi;
+        font-size: 5vi;
     }
     .classes{
         display: none;
     }
-    
-    nav{
-        position: absolute;
-        width: 100%;
-        padding: 0;
-        margin: 0;
-        display: flex;
-        text-align: center;
-        justify-content: center;
-    }
-    
+
     nav svg{
         position: absolute;
     }
     
     .produ-logo{
         position: absolute;
-        top:2vi;
+        top:3vi;
         width: 4.5vi;
-        left: 30vi;
+        left: 4vi;
     }
     .abr-logo{
         position: absolute;
-        top:1.4vi;
+        top:2.4vi;
         width: 5.5vi;
         left: 43vi;
     }
     .cami-logo{
         position: absolute;
-        top:1.6vi;
+        top:2.6vi;
         width: 6vi;
         left: 57vi;
     }
     .pan-logo{
         position: absolute;
-        top:2vi;
+        top:3vi;
         width: 4.5vi;
         left: 72vi;
     }
     .car-logo{
         position: absolute;
-        top:1.8vi;
+        top:2.8vi;
         width: 5vi;
-        left: 85vi;
+        left: 84vi;
     }
     .square3{
         display: none;
