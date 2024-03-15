@@ -218,6 +218,6 @@ img{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     grid-column: 1/1;
     color: #0033a0;
-    margin-bottom: 0vi;
+    bottom: 20vi;
     position: absolute;
 }
