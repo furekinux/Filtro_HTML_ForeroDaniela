@@ -6,6 +6,9 @@ html{
 
 
 .bigrectan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: absolute;
     width: 70vi;
     height: 51.099vi;
@@ -93,8 +96,24 @@ nav svg{
 }
 
 .grid-cont{
+    display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1vi;
+    column-gap: 1vi;
+    align-content: center;
+    border: 0.1vi solid #0c0fc5;
+    margin-top: 24vi;
+    padding: 2vi;
 }
+
+.everysque{
+    border: 0.2vi solid #0033a0;
+    border-radius: 2vi;
+    width: 15vi;
+    display: flex;
+    justify-content: center;
+}
+
 
 img{
     width: 10vi;
@@ -123,6 +142,7 @@ img{
         overflow:scroll;
         margin-top: 23vi;
         border-radius: 2.5vi;
+        left: 5vi;
     }
     
     .title1{
@@ -151,25 +171,25 @@ img{
         position: absolute;
         top:2.4vi;
         width: 5.5vi;
-        left: 43vi;
+        left: 24vi;
     }
     .cami-logo{
         position: absolute;
         top:2.6vi;
         width: 6vi;
-        left: 57vi;
+        left: 43vi;
     }
     .pan-logo{
         position: absolute;
         top:3vi;
         width: 4.5vi;
-        left: 72vi;
+        left: 64vi;
     }
     .car-logo{
         position: absolute;
         top:2.8vi;
         width: 5vi;
-        left: 84vi;
+        left: 83vi;
     }
     .square3{
         display: none;
@@ -180,9 +200,9 @@ img{
     
     .copy{
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        top:100vi;
-        position: absolute;
-        font-size: 1.5vi;
+        margin-top: 120vi;
+
+        font-size: 2vi;
     }
     .copy-logo{
         top:-0.5vi;
