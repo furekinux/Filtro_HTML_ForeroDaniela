@@ -13,7 +13,7 @@ html{
     width: 70vi;
     height: 51.099vi;
     background-color: #ffffff;
-    border: 0.1vi solid #000000;
+    border: 0.1vi solid #326cd8;
     overflow:scroll;
     right: 2.5vi;
     top: 2.5vi;
@@ -97,23 +97,25 @@ nav svg{
 
 .grid-cont{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
     gap: 1vi;
     column-gap: 1vi;
     align-content: center;
     border: 0.1vi solid #0c0fc5;
     margin-top: 24vi;
     padding: 2vi;
+    padding-top: 10vi;
 }
 
 .everysque{
     border: 0.2vi solid #0033a0;
     border-radius: 2vi;
-    width: 15vi;
+    width: 60vi;
     display: flex;
     justify-content: center;
+    grid-column: 1/1;
 }
-
 
 img{
     width: 10vi;
@@ -211,4 +213,12 @@ img{
         left: 8vi;
     }
     
+}
+
+.identify{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    grid-column: 1/1;
+    color: #0033a0;
+    margin-bottom: 0vi;
+    position: absolute;
 }
